@@ -1,21 +1,47 @@
 html {
   font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-
-html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-.author-name {
+body {
+  text-align: center;
+  overflow: auto;
+  margin: 0;
+}
+
+section {
+  padding: 1rem;
+  overflow: auto;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+h3 {
   font-style: italic;
   margin: 0;
   margin-top: 0.25rem;
   font-size: 0.875rem;
+  font-weight: normal;
+}
+
+img {
+  width: 7rem;
+  display: block;
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
 }
 
 .cards {
@@ -26,15 +52,7 @@ html {
   display: inline-block;
   background-color: #e2e2e2;
   float: left;
-}
-
-
-img {
-  width: 5rem;
-}
-
-.img-box {
-  display: block;
+  height: 30rem;
 }
 
 .btn {
@@ -50,19 +68,25 @@ img {
   text-align: left;
 }
 
+.btn-small {
+  display: inline-block;
+}
+
 .btn:hover {
   border-color: black;
   background-color: black;
   color: white;
 }
 
-strong, .author-name, .info, .btn-box {
+h2, h3, .info, .btn-box {
   text-align: left;
 }
 
-strong {
+h2 {
   text-align: left;
   display: block;
+  font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .info {
@@ -70,19 +94,15 @@ strong {
   margin-bottom: 1.5rem;
 }
 
-figure {
-  margin: 0;
-}
-
 .card-2 {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 
 .card-3 {
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 
 .card-4 {
-  background-color: #999999;
+  background-color: #999;
   border-right: 1px solid black;
 }
