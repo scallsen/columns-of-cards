@@ -1,0 +1,88 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.author-name {
+  font-style: italic;
+  margin: 0;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.cards {
+  max-width: 25%;
+  border-left: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  display: inline-block;
+  background-color: #e2e2e2;
+  float: left;
+}
+
+
+img {
+  width: 5rem;
+}
+
+.img-box {
+  display: block;
+}
+
+.btn {
+  display: block;
+  font-size: 0.875rem;
+  text-decoration: none;
+  padding: 0.4em 0.75em 0.3em;
+  border: 3px solid #333;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  text-align: left;
+}
+
+.btn:hover {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+strong, .author-name, .info, .btn-box {
+  text-align: left;
+}
+
+strong {
+  text-align: left;
+  display: block;
+}
+
+.info {
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+.card-2 {
+  background-color: #cccccc;
+}
+
+.card-3 {
+  background-color: #aaaaaa;
+}
+
+.card-4 {
+  background-color: #999999;
+  border-right: 1px solid black;
+}
